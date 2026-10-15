@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3456a9a6-14a9-5081-bf91-33d5f91ce93e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-09T09:05:21Z",
+    "component": {
+      "type": "application",
+      "name": "BOSTON_GOV",
+      "version": "d710855aa525",
+      "bom-ref": "pkg:generic/anticloud/BOSTON_GOV@d710855aa525",
+      "purl": "pkg:generic/anticloud/BOSTON_GOV@d710855aa525",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d710855aa5250ce5"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
